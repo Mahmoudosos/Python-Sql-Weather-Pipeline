@@ -5,6 +5,12 @@ from datetime import datetime
 
 
 # 2. Getting the Data:
+API_KEY = "Enter_your_weatherstack_API"
+My_DRIVER =  "Enter_your_Driver"
+My_SERVER = r"Enter_your_Server"
+My_DATABASE = "Enter_your_database"
+
+
 url_1 = f"http://api.weatherstack.com/current?access_key={API_KEY}&query=Cairo"
 User_1 = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0"
 report = requests.get(url = url_1, headers = {"User-Agent":User_1})
