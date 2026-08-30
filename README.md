@@ -1,2 +1,11 @@
 # Python-Sql-Weather-Pipeline
-Creating a pipeline to get the daily weather data of Cairo-Egypt and store it in a Sql server
+It's a small project to get the daily weather data of Cairo City using the API from weatherstack website.
+
+I used the pyodbc library to connect to my SQL Server. You can use it to connect to different DBs, but the code could vary slightly.
+
+I used the Task Scheduler, but you can use any kind of automation tool to automate this code.
+
+
+## Improvements:
+- Adding various cities.
+- Create some statistics based on the database.
