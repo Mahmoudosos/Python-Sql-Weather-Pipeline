@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 
 
 # 2. Getting the Data:
+load_dotenv()
 API_KEY = os.environ.get("API_KEY")
 My_DRIVER = os.environ.get("My_DRIVER")
 My_SERVER = os.environ.get("My_SERVER")
