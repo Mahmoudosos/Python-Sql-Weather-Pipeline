@@ -1,0 +1,52 @@
+2026-09-04 17:39:01,350 - INFO - Starting the ETL process
+2026-09-04 18:48:16,487 - INFO - Starting the ETL process
+2026-09-04 18:48:17,146 - INFO - The Extract process is done. Here's the input file name: 2026-09-04 18-48-17.138189_extracted.json
+2026-09-05 12:55:31,981 - INFO - Starting the ETL process
+2026-09-05 15:08:02,252 - INFO - Starting the ETL process
+2026-09-05 15:08:02,802 - INFO - The Extract process is done. Here's the input file name: 2026-09-05 15-08-02.788883_extracted.json
+2026-09-05 19:17:26,701 - INFO - Starting the ETL process
+2026-09-05 19:17:27,318 - INFO - The Extract process is done. Here's the input file name: 2026-09-05 19-17-27.309940_extracted.json
+2026-09-05 19:18:44,242 - INFO - Starting the ETL process
+2026-09-05 19:18:47,773 - INFO - Starting the ETL process
+2026-09-05 19:18:49,922 - INFO - Starting the ETL process
+2026-09-05 19:18:51,362 - INFO - Starting the ETL process
+2026-09-05 19:18:52,727 - INFO - Starting the ETL process
+2026-09-05 19:19:15,326 - INFO - Starting the ETL process
+2026-09-05 20:06:59,677 - INFO - Starting the ETL process
+2026-09-05 20:17:54,198 - INFO - Starting the ETL process
+2026-09-06 18:06:18,649 - INFO - Starting the ETL process
+2026-09-06 18:06:19,251 - INFO - The Extract process is done. Here's the input file name: 2026-09-06 18-06-19.239274_extracted.json
+2026-09-07 16:08:39,153 - INFO - Starting the ETL process
+2026-09-07 16:08:39,951 - INFO - The Extract process is done. Here's the input file name: 2026-09-07 16-08-39.937907_extracted.json
+2026-09-07 16:09:51,394 - INFO - Starting the ETL process
+2026-09-07 16:09:51,830 - INFO - The Extract process is done. Here's the input file name: 2026-09-07 16-09-51.825333_extracted.json
+2026-09-07 16:12:49,570 - INFO - Starting the ETL process
+2026-09-07 16:12:50,002 - INFO - The Extract process is done. Here's the input file name: 2026-09-07 16-12-50.000505_extracted.json
+2026-09-07 16:20:56,919 - INFO - Starting the ETL process
+2026-09-07 16:20:57,584 - INFO - The Extract process is done. Here's the input file name: 2026-09-07 16-20-57.569496_extracted.json
+2026-09-07 16:20:57,591 - INFO - The transformation process finished successfully. here is the transformed file:2026-09-07 16-20-57.585069_transformed_data.json
+2026-09-07 16:20:57,591 - INFO - Starting the Load process
+2026-09-07 16:20:57,675 - WARNING - You are loading duplicated data
+2026-09-07 16:22:47,570 - INFO - Starting the ETL process
+2026-09-07 16:22:47,570 - INFO - Starting the Load process
+2026-09-07 16:22:47,662 - WARNING - You are loading duplicated data
+2026-09-07 17:01:01,826 - INFO - Starting the ETL process
+2026-09-07 17:01:02,293 - INFO - The Extract process is done. Here's the input file name: 2026-09-07 17-01-02.286282_extracted.json
+2026-09-07 17:01:02,299 - INFO - The transformation process finished successfully. here is the transformed file:2026-09-07 17-01-02.294429_transformed_data.json
+2026-09-07 17:01:02,300 - INFO - Starting the Load process
+2026-09-07 17:01:44,694 - INFO - Starting the ETL process
+2026-09-07 17:01:45,086 - INFO - The Extract process is done. Here's the input file name: 2026-09-07 17-01-45.082902_extracted.json
+2026-09-07 17:01:45,091 - INFO - The transformation process finished successfully. here is the transformed file:2026-09-07 17-01-45.089852_transformed_data.json
+2026-09-07 17:01:45,091 - INFO - Starting the Load process
+2026-09-07 17:01:45,183 - WARNING - You are loading duplicated data
+2026-09-07 17:04:49,720 - INFO - Starting the ETL process
+2026-09-07 17:04:50,096 - INFO - The Extract process is done. Here's the input file name: 2026-09-07 17-04-50.093416_extracted.json
+2026-09-07 17:04:50,099 - INFO - The transformation process finished successfully. here is the transformed file:2026-09-07 17-04-50.098079_transformed_data.json
+2026-09-07 17:04:50,099 - INFO - Starting the Load process
+2026-09-07 17:04:50,140 - WARNING - You are loading duplicated data
+2026-09-07 17:08:10,148 - INFO - Starting the ETL process
+2026-09-07 17:08:10,738 - INFO - The Extract process is done. Here's the input file name: 2026-09-07 17-08-10.732022_extracted.json
+2026-09-07 17:08:10,744 - INFO - The transformation process finished successfully. here is the transformed file:2026-09-07 17-08-10.739546_transformed_data.json
+2026-09-07 17:08:10,744 - INFO - Starting the Load process
+2026-09-07 17:08:10,795 - INFO - The insertion date is 2026-09-07 17:08:10.795154 for DAILY_Egypt_WEATHER 
+2026-09-07 17:08:10,800 - INFO - The insertion date is 2026-09-07 17:08:10.800659 for DAILY_EGYPT_OBJECT_TIME
