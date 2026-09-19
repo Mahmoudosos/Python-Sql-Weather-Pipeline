@@ -8,7 +8,7 @@ import re
 
 def transform_data(filepath = None,data_file = "data",process_data_file ="processed"):
     logging.info("Starting the transformation process")
-    if Path(filepath).exists is False:
+    if Path(filepath).exists() is False:
         logging.warning("The file path is not correct. Please re-inter the file path")
         return
     with open(filepath,"r") as r:
@@ -27,6 +27,7 @@ def transform_data(filepath = None,data_file = "data",process_data_file ="proces
         for i in ["sunrise","sunset","moonrise","moonset"]:
             if i not in data["current"]["astro"].keys():
                 raise ValueError(f"{i} is not here")
+        if
     except ValueError as e:
         logging.warning(f"The {e}")
         return
@@ -45,7 +46,7 @@ def transform_data(filepath = None,data_file = "data",process_data_file ="proces
         try:
             objects_time_formatted.append(datetime.strptime(i, time_format))
         except ValueError as e:
-            print(f"Error happens {type(e)} because of {i}")
+            logging.warning(f"Error happens {type(e)} because of {i}")
             objects_time_formatted.append(None)
 
     str_format = '%H:%M'
@@ -81,11 +82,11 @@ def transform_data(filepath = None,data_file = "data",process_data_file ="proces
         logging.warning("The temperature field is not correct ")
         return
 
-    parent_path = Path(__file__).parent.parent/data_file/process_data_file
-    logging.info(parent_path)
+    parent_path = Path(__file__).resolve().parent.parent/data_file/process_data_file
+
     if Path(parent_path).exists() is False:
-        logging.warning("the transform path is not correct. Please re-enter it!")
-        return
+        parent_path.mkdir(parents=True,exist_ok=True)
+
     extract_date= re.findall("....-..-..",Path(filepath).name)[0]
     extract_city =re.findall("^.*?(?=_)",Path(filepath).name)[0]
     transform_file_name = f"{extract_city}_weather_{extract_date}_transformed.json"
