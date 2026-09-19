@@ -4,33 +4,41 @@ from dotenv import load_dotenv
 from datetime import datetime
 import json
 import os
-def extract_data():
+from pathlib import Path
+from datetime import date
+
+def extract_data(city = None,data_folder = "data",raw_data_folder = "raw"):
     load_dotenv()
-    API_KEY = os.environ.get("API_KEY")
-
-    url_1 = f"http://api.weatherstack.com/current?access_key={API_KEY}&query=Cairo"
-
-    User_Agent = os.environ.get("My_User_Agent")
-    report = requests.get(url = url_1, headers = {"User-Agent":User_Agent}, timeout = 60)
-
-    if report.status_code != 200:
-        logging.Warning("Extract Problem: status code is not equal to 200")
+    try:
+        API_KEY = os.environ["API_KEY"]
+        User_Agent = os.environ["My_User_Agent"]
+    except KeyError as e:
+        logging.warning(f"The {e} is missing")
         return
 
-    data = report.json()
+    url_1 = f"http://api.weatherstack.com/current?access_key={API_KEY}&query={city}"
 
+    try:
+        report = requests.get(url = url_1, headers = {"User-Agent":User_Agent}, timeout = 60)
+        report.raise_for_status()
+    except requests.exceptions as e:
+        logging.warning(f"Something went wrong with the connection to the website: {e}")
+        return
+    data = report.json()
+    
+    if not data:
+        logging.warning("The data is empty")
+        return
     # extracting the data into a file:
-    datetime_extracted = str.replace(str(datetime.now()),":","-")
-    with open(rf"..\data\raw\{datetime_extracted}_extracted.json","w",encoding="utf-8") as input_file:
+    date_today_extracted = date.today()
+    parent_path = Path(__file__).resolve().parent.parent/data_folder/raw_data_folder
+    if Path(parent_path).exists() is False:
+        parent_path.mkdir(exist_ok=True)
+
+    datetime_extracted = f"{city}_weather_{date_today_extracted}_extracted.json"
+    extracted_path = Path(parent_path)/datetime_extracted
+
+    with open(extracted_path,"w",encoding="utf-8") as input_file:
         input_file.write(json.dumps(data))
 
-    with open(rf"..\data\raw\{datetime_extracted}_extracted.json","r") as reading_input_file:
-        r = reading_input_file.read(1)
-        if not r:
-            logging.warning("Extract Problem: The input file is empty")
-            os.remove(rf"..\data\raw\{datetime_extracted}_extracted.json")
-            logging.info("Extract: The empty input file has been deleted")
-            return
-        else:
-            logging.info(rf"The Extract process is done. Here's the input file name: {datetime_extracted}_extracted.json")
-    return f"{datetime_extracted}_extracted.json"
+    return extracted_path

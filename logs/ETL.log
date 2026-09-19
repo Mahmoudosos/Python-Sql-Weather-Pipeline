@@ -50,3 +50,187 @@
 2026-09-07 17:08:10,744 - INFO - Starting the Load process
 2026-09-07 17:08:10,795 - INFO - The insertion date is 2026-09-07 17:08:10.795154 for DAILY_Egypt_WEATHER 
 2026-09-07 17:08:10,800 - INFO - The insertion date is 2026-09-07 17:08:10.800659 for DAILY_EGYPT_OBJECT_TIME
+2026-09-12 15:00:04,820 - INFO - Starting the ETL process
+2026-09-12 18:50:07,095 - INFO - Starting the ETL process
+2026-09-12 18:50:07,097 - WARNING - the transform path is not correct. Please re-enter it!
+2026-09-12 18:52:02,782 - INFO - Starting the ETL process
+2026-09-12 18:52:02,784 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\process
+2026-09-12 18:52:02,784 - WARNING - the transform path is not correct. Please re-enter it!
+2026-09-12 18:53:08,931 - INFO - Starting the ETL process
+2026-09-12 18:53:08,933 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-12 18:53:35,203 - INFO - Starting the ETL process
+2026-09-12 18:53:35,204 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-12 18:54:07,407 - INFO - Starting the ETL process
+2026-09-12 18:54:07,408 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-12 18:55:18,497 - INFO - Starting the ETL process
+2026-09-12 18:55:18,498 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-12 18:55:26,159 - INFO - Starting the ETL process
+2026-09-12 18:55:26,161 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-12 18:55:27,418 - INFO - Starting the ETL process
+2026-09-12 18:55:27,420 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-12 18:55:28,333 - INFO - Starting the ETL process
+2026-09-12 18:55:28,334 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-17 11:30:17,855 - INFO - Starting the ETL process
+2026-09-17 11:31:08,578 - INFO - Starting the ETL process
+2026-09-17 11:31:08,986 - INFO - Starting the transformation process
+2026-09-17 11:31:09,002 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-17 11:31:09,003 - INFO - The processed file have been written.
+2026-09-17 11:31:09,003 - INFO - The transformation process is done
+2026-09-17 11:31:34,084 - INFO - Starting the ETL process
+2026-09-17 11:31:34,372 - INFO - Starting the transformation process
+2026-09-17 11:31:34,377 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-17 11:31:34,378 - INFO - The processed file have been written.
+2026-09-17 11:31:34,378 - INFO - The transformation process is done
+2026-09-17 11:31:34,378 - INFO - Starting the Load process
+2026-09-17 11:34:45,281 - INFO - Starting the ETL process
+2026-09-17 11:34:45,685 - INFO - Starting the transformation process
+2026-09-17 11:34:45,688 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-17 11:34:45,688 - INFO - The processed file have been written.
+2026-09-17 11:34:45,689 - INFO - The transformation process is done
+2026-09-17 11:34:45,689 - INFO - Starting the Load process
+2026-09-17 11:34:45,776 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-17 11:36:02,273 - INFO - Starting the ETL process
+2026-09-17 11:36:02,926 - INFO - Starting the transformation process
+2026-09-17 11:36:02,936 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-17 11:36:02,937 - INFO - The processed file have been written.
+2026-09-17 11:36:02,937 - INFO - The transformation process is done
+2026-09-17 11:36:02,937 - INFO - Starting the Load process
+2026-09-17 11:36:03,019 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-17 11:36:03,027 - WARNING - The insertion to a table have the problem: ('The SQL contains 6 parameter markers, but 7 parameters were supplied', 'HY000')
+2026-09-17 11:36:30,571 - INFO - Starting the ETL process
+2026-09-17 11:36:30,939 - INFO - Starting the transformation process
+2026-09-17 11:36:30,948 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-17 11:36:30,948 - INFO - The processed file have been written.
+2026-09-17 11:36:30,948 - INFO - The transformation process is done
+2026-09-17 11:36:30,948 - INFO - Starting the Load process
+2026-09-17 11:36:31,026 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-17 11:36:31,033 - WARNING - The insertion to a table have the problem: ('The SQL contains 6 parameter markers, but 7 parameters were supplied', 'HY000')
+2026-09-17 11:36:38,712 - INFO - Starting the ETL process
+2026-09-17 11:36:39,288 - INFO - Starting the transformation process
+2026-09-17 11:36:39,297 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-17 11:36:39,298 - INFO - The processed file have been written.
+2026-09-17 11:36:39,298 - INFO - The transformation process is done
+2026-09-17 11:36:39,298 - INFO - Starting the Load process
+2026-09-17 11:36:39,371 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-17 11:36:39,378 - WARNING - The insertion to a table have the problem: ('The SQL contains 6 parameter markers, but 7 parameters were supplied', 'HY000')
+2026-09-17 11:36:48,205 - INFO - Starting the ETL process
+2026-09-17 11:36:48,680 - INFO - Starting the transformation process
+2026-09-17 11:36:48,686 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-17 11:36:48,687 - INFO - The processed file have been written.
+2026-09-17 11:36:48,687 - INFO - The transformation process is done
+2026-09-17 11:36:48,687 - INFO - Starting the Load process
+2026-09-17 11:36:48,761 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-17 11:36:48,771 - WARNING - The insertion to a table have the problem: ('The SQL contains 6 parameter markers, but 7 parameters were supplied', 'HY000')
+2026-09-17 11:47:25,553 - INFO - Starting the ETL process
+2026-09-17 11:47:26,240 - INFO - Starting the transformation process
+2026-09-17 11:47:26,250 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-17 11:47:26,250 - INFO - The processed file have been written.
+2026-09-17 11:47:26,251 - INFO - The transformation process is done
+2026-09-17 11:47:26,251 - INFO - Starting the Load process
+2026-09-17 11:47:26,364 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-17 11:47:26,378 - WARNING - The insertion to a table have the problem: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Must declare the table variable "@ID". (1087) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)')
+2026-09-17 11:49:45,984 - INFO - Starting the ETL process
+2026-09-17 11:49:45,984 - INFO - Starting the Load process
+2026-09-17 11:49:46,082 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-17 11:49:46,092 - WARNING - The insertion to a table have the problem: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Must declare the table variable "@ID". (1087) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)')
+2026-09-17 11:54:03,923 - INFO - Starting the ETL process
+2026-09-17 11:54:03,923 - INFO - Starting the Load process
+2026-09-17 11:54:04,002 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-17 11:54:04,011 - WARNING - The insertion to a table have the problem: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Must declare the table variable "@ID". (1087) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)')
+2026-09-17 11:56:41,559 - INFO - Starting the ETL process
+2026-09-17 11:56:41,559 - INFO - Starting the Load process
+2026-09-17 11:56:41,665 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-17 11:56:41,672 - WARNING - The insertion to a table have the problem: ('The SQL contains 6 parameter markers, but 7 parameters were supplied', 'HY000')
+2026-09-17 11:58:56,402 - INFO - Starting the ETL process
+2026-09-17 11:58:56,402 - INFO - Starting the Load process
+2026-09-17 11:58:56,478 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-17 11:58:56,486 - WARNING - The insertion to a table have the problem: ('The SQL contains 6 parameter markers, but 7 parameters were supplied', 'HY000')
+2026-09-17 11:59:23,660 - INFO - Starting the ETL process
+2026-09-17 11:59:23,660 - INFO - Starting the Load process
+2026-09-17 11:59:23,740 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-17 11:59:23,747 - WARNING - The insertion to a table have the problem: ('The SQL contains 6 parameter markers, but 7 parameters were supplied', 'HY000')
+2026-09-17 12:00:36,475 - INFO - Starting the ETL process
+2026-09-17 12:00:36,475 - INFO - Starting the Load process
+2026-09-17 12:00:36,549 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-17 12:00:36,555 - WARNING - The insertion to a table have the problem: ('The SQL contains 6 parameter markers, but 7 parameters were supplied', 'HY000')
+2026-09-17 12:04:03,337 - INFO - Starting the ETL process
+2026-09-17 12:04:03,337 - INFO - Starting the Load process
+2026-09-17 12:04:03,440 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-17 12:04:03,450 - WARNING - The insertion to a table have the problem: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Must declare the table variable "@ID". (1087) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)')
+2026-09-17 12:05:54,273 - INFO - Starting the ETL process
+2026-09-17 12:05:54,274 - INFO - Starting the Load process
+2026-09-17 12:05:54,345 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-17 12:05:54,354 - WARNING - The insertion to a table have the problem: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Must declare the table variable "@ID". (1087) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)')
+2026-09-18 07:09:36,973 - INFO - Starting the ETL process
+2026-09-18 07:09:36,974 - INFO - Starting the Load process
+2026-09-18 07:09:37,070 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-18 07:09:37,077 - WARNING - The insertion to a table have the problem: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Must declare the table variable "@@ID". (1087) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)')
+2026-09-18 07:10:43,431 - INFO - Starting the ETL process
+2026-09-18 07:10:43,431 - INFO - Starting the Load process
+2026-09-18 07:10:43,520 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-18 07:10:43,532 - WARNING - The insertion to a table have the problem: ('42000', '[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Must declare the table variable "@@ID". (1087) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)')
+2026-09-18 07:29:45,380 - INFO - Starting the ETL process
+2026-09-18 07:29:45,380 - INFO - Starting the Load process
+2026-09-18 07:29:45,460 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-18 07:29:45,467 - WARNING - The insertion to a table have the problem: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ')'. (102) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+2026-09-18 07:32:36,964 - INFO - Starting the ETL process
+2026-09-18 07:32:36,964 - INFO - Starting the Load process
+2026-09-18 07:32:37,009 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-18 07:32:37,023 - WARNING - The insertion to a table have the problem: ('42S22', "[42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid column name 'ID'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+2026-09-18 07:33:29,566 - INFO - Starting the ETL process
+2026-09-18 07:33:29,566 - INFO - Starting the Load process
+2026-09-18 07:33:29,612 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-18 07:33:29,617 - WARNING - The insertion to a table have the problem: ('42S02', "[42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Invalid object name 'DAILY_WEATHER'. (208) (SQLExecDirectW); [42S02] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+2026-09-18 07:35:24,112 - INFO - Starting the ETL process
+2026-09-18 07:35:24,112 - INFO - Starting the Load process
+2026-09-18 07:35:24,158 - WARNING - Something happened while creating the tables. Which is: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]Incorrect syntax near ','. (102) (SQLExecDirectW)") 
+2026-09-18 07:45:38,437 - INFO - Starting the ETL process
+2026-09-18 07:45:38,437 - INFO - Starting the Load process
+2026-09-18 07:45:38,495 - INFO - The insertion date is 2026-09-18 07:45:38.495326
+2026-09-18 07:45:38,495 - INFO - the load process is done
+2026-09-18 07:49:37,776 - INFO - Starting the ETL process
+2026-09-18 07:49:38,732 - INFO - Starting the transformation process
+2026-09-18 07:49:38,741 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-18 07:49:38,742 - INFO - The processed file have been written.
+2026-09-18 07:49:38,742 - INFO - The transformation process is done
+2026-09-18 07:49:38,742 - INFO - Starting the Load process
+2026-09-18 07:49:38,799 - INFO - The insertion date is 2026-09-18 07:49:38.799531
+2026-09-18 07:49:38,799 - INFO - the load process is done
+2026-09-18 07:50:10,852 - INFO - Starting the ETL process
+2026-09-18 07:50:11,449 - INFO - Starting the transformation process
+2026-09-18 07:50:11,460 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-18 07:50:11,460 - INFO - The processed file have been written.
+2026-09-18 07:50:11,460 - INFO - The transformation process is done
+2026-09-18 07:50:11,460 - INFO - Starting the Load process
+2026-09-18 07:50:11,506 - WARNING - The insertion to a table have the problem: ('42000', "[42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]String or binary data would be truncated in table 'ANTA_3mori.dbo.DAILY_WEATHER', column 'REGION'. Truncated value: 'City of London, Greater L'. (2628) (SQLExecDirectW); [42000] [Microsoft][ODBC Driver 18 for SQL Server][SQL Server]The statement has been terminated. (3621)")
+2026-09-18 09:13:04,051 - INFO - Starting the ETL process
+2026-09-18 09:13:04,857 - INFO - Starting the transformation process
+2026-09-18 09:13:04,866 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-18 09:13:04,867 - INFO - The processed file have been written.
+2026-09-18 09:13:04,867 - INFO - The transformation process is done
+2026-09-18 09:13:04,867 - INFO - Starting the Load process
+2026-09-18 09:13:04,978 - INFO - The insertion date is 2026-09-18 09:13:04.978785
+2026-09-18 09:13:04,978 - INFO - the load process is done
+2026-09-18 10:25:24,396 - INFO - Starting the ETL process
+2026-09-18 10:25:25,108 - INFO - Starting the transformation process
+2026-09-18 10:25:25,137 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-18 10:25:25,139 - INFO - The processed file have been written.
+2026-09-18 10:25:25,139 - INFO - The transformation process is done
+2026-09-18 10:25:25,139 - INFO - Starting the Load process
+2026-09-18 10:25:25,455 - INFO - The insertion date is 2026-09-18 10:25:25.455220
+2026-09-18 10:25:25,455 - INFO - the load process is done
+2026-09-18 10:26:34,080 - INFO - Starting the ETL process
+2026-09-18 10:26:34,728 - INFO - Starting the transformation process
+2026-09-18 10:26:34,754 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-18 10:26:34,755 - INFO - The processed file have been written.
+2026-09-18 10:26:34,756 - INFO - The transformation process is done
+2026-09-18 10:26:34,756 - INFO - Starting the Load process
+2026-09-18 10:26:35,016 - INFO - The insertion date is 2026-09-18 10:26:35.016552
+2026-09-18 10:26:35,016 - INFO - the load process is done
+2026-09-18 10:27:08,849 - INFO - Starting the ETL process
+2026-09-18 10:27:09,239 - INFO - Starting the transformation process
+2026-09-18 10:27:09,247 - INFO - C:\Interests\projects\Python-Sql-Weather-Pipeline\data\processed
+2026-09-18 10:27:09,249 - INFO - The processed file have been written.
+2026-09-18 10:27:09,249 - INFO - The transformation process is done
+2026-09-18 10:27:09,249 - INFO - Starting the Load process
+2026-09-18 10:27:09,339 - WARNING - You are loading duplicated data
