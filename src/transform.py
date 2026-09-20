@@ -27,7 +27,6 @@ def transform_data(filepath = None,data_file = "data",process_data_file ="proces
         for i in ["sunrise","sunset","moonrise","moonset"]:
             if i not in data["current"]["astro"].keys():
                 raise ValueError(f"{i} is not here")
-        if
     except ValueError as e:
         logging.warning(f"The {e}")
         return

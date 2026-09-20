@@ -59,7 +59,7 @@ def load_data(transformed_data_file = None):
               )
               """)
         cursor.execute("""IF OBJECT_ID('DAILY_OBJECT_TIME') IS NULL CREATE TABLE DAILY_OBJECT_TIME(
-              ID INT CONSTRAINT UQ_ID_City_OBJECT_TIME UNIQUE ,
+              ID INT CONSTRAINT UQ_ID_City_OBJECT_TIME UNIQUE CONSTRAINT FK_FK_OBJECT_WEATHER_ID  FOREIGN KEY REFERENCES DAILY_WEATHER(ID),
               CITY NVARCHAR(35),
               SUNRISE TIME,
               SUNSET TIME,

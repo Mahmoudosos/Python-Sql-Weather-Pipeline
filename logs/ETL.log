@@ -234,3 +234,15 @@
 2026-09-18 10:27:09,249 - INFO - The transformation process is done
 2026-09-18 10:27:09,249 - INFO - Starting the Load process
 2026-09-18 10:27:09,339 - WARNING - You are loading duplicated data
+2026-09-20 07:24:18,433 - INFO - Starting the ETL process
+2026-09-20 07:24:18,433 - INFO - Starting the Extracting process.
+2026-09-20 07:24:19,087 - INFO - The extracted file have been written
+2026-09-20 07:24:19,087 - INFO - The Extraction process is finished successfully
+2026-09-20 07:24:19,087 - INFO - Starting the transformation process
+2026-09-20 07:24:19,096 - WARNING - Error happens <class 'ValueError'> because of No moonset
+2026-09-20 07:24:19,096 - WARNING - Error happens <class 'AttributeError'> because of None
+2026-09-20 07:24:19,098 - INFO - The processed file have been written.
+2026-09-20 07:24:19,098 - INFO - The transformation process is done
+2026-09-20 07:24:19,098 - INFO - Starting the Load process
+2026-09-20 07:24:19,204 - INFO - The insertion date is 2026-09-20 07:24:19.204583
+2026-09-20 07:24:19,204 - INFO - the load process is done
